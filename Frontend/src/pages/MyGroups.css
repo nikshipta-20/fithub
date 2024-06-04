@@ -1,0 +1,41 @@
+.myGroups-body{
+    align-items: center;
+    background: #222;
+    height: 100vh;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+}
+
+.myGroups-head{
+    color: #fff;
+    margin-left: 35vw;
+    padding-top: 5vh;
+    font-size: 10vh;
+    font-weight: 600;
+}
+
+.myGroups-group{
+    margin-left: 10vw;
+    display: flex;
+    gap: 5vw;
+    margin-top: 10vh;
+}
+
+.myGroups-id{
+    font-size: 4vh;
+    color: #fff;
+}
+
+.myGroups-name{
+    font-size: 4vh;
+    color: #fff;
+}
+
+.myGroups-btn{
+    margin-left: 45vw;
+    margin-top: 20vh;
+    color: #fff;
+    
+}

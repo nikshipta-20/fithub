@@ -1,0 +1,57 @@
+/* Import Font Dancing Script */
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+
+/* * {
+    margin: 0;
+}
+
+pro-body {
+    background: #222;
+    font-family: Arial;
+    overflow: hidden;
+    height: 100vh;
+} */
+
+
+.profile-main {
+    margin-right: 10%;
+    font-size: 28px;
+    padding: 0 10px;
+    width: 100%;
+    background: #222;
+    height: 89.5vh;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+}
+
+
+.profile-head {
+    color: #B31312;
+    margin-left: 35vw;
+    padding-top: 5vh;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 10vh;
+    margin-bottom: 5%;
+}
+
+.profile-main .profile-card {
+    margin-left: 13vw;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 18px;
+    box-shadow: 1px 1px 8px 0 grey;
+    height: auto;
+    margin-bottom: 20px;
+    padding: 20px 20px 20px 50px;
+    width:75vw;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.profile-card table {
+    border: none;
+    font-size: 16px;
+    height: auto;
+    width: 100%;
+}

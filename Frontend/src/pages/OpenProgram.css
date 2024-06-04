@@ -1,0 +1,54 @@
+.program-page-div {
+    /* margin-left: -500px; */
+    width: 100%;
+    background: #222;
+    padding-left:10% ;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+}
+
+.program-div {
+    display: flex;
+    color: white;
+    gap:30%;
+
+}
+
+.day-button {
+    font-size: large;
+    font-weight: 500;
+    color: #fff;
+    background-color: #b31312;
+    border-color: white;
+    padding: 20px 15px;
+    margin: 10px;
+    margin-left: 0;
+    border-radius: 8px;
+}
+
+.mark-as-done{
+    margin-left: 35%;
+    background-color: #fff;
+    color: black;
+    border: #b31312;
+    padding: 10px 20px;
+}
+
+.h2 {
+    margin-top: 20%;
+    font-weight: 600;
+    font-size: x-large;
+    text-align: center;
+    justify-content: center;
+}
+
+.day-heading {
+    font-size: xx-large;
+    font-weight: 700;
+    text-align: center;
+    margin: 10%;
+    margin-left: auto;
+    margin-bottom: 15%;
+}

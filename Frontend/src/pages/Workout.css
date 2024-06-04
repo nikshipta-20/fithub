@@ -1,0 +1,30 @@
+.workout-body{
+    background: #222;
+    align-items: center;
+    color: white;
+    height: 120vh;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+}
+
+.workout-div{
+    width: 50vw;
+    margin-left: 20vw;
+    padding-top: 25vh;
+}
+
+.workout-heading{
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+
+.workout-content{
+    font-size: larger;
+}
+
+.workout-timer{
+    padding-top: 2.5vh;
+    margin-right: 10vw;
+}

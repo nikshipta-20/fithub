@@ -1,0 +1,17 @@
+.exercises-div{
+  padding-top: 5vh;
+  background: #222;
+  height: 95vh;
+  width: 100vw;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+}
+
+.Excards {
+  display: flex;
+  flex-wrap: wrap; /* Allow cards to wrap to the next row */
+  justify-content: space-around; /* Distribute space around cards */
+}
+  

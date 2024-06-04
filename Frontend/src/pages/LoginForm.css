@@ -1,0 +1,247 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*gap: 5%;*/
+    /* margin-top: 5%; */
+    background-color: #222;
+    width: 100vw;
+    height: 100vh;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+}
+
+h1 {
+    font-size: 2rem;
+    margin-left: 8px;
+}
+
+.tagline{
+    margin-top: 2px;
+    margin-left: 8px;
+}
+
+p {
+    margin-top: -5%;
+    margin-bottom: 15%;
+    font-size: small;
+    font-weight: 500;
+}
+
+.login-container {
+    display: flex;
+    gap: 5%;
+    width: 70%;
+    height: 70%;
+    align-items: center;
+    border-radius: 20px;
+    border: 5px solid #B31312;
+    background-image: url("../assets/login-image.jpg");
+    background-size: cover; /* This will cover the entire container with the image */
+    background-position-x: right;
+}
+
+.login {
+    
+      align-items: center;
+      margin-left: 5%;
+      justify-content: center;
+      background-color: rgba(255, 255, 255, 0.5);
+      border-radius: 10px;
+      height: 85%;
+      width: 30%;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="number"] {
+    width: 200px;
+    padding: 10px;
+    margin: 8px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: all 0.3s ease; /* Add a smooth transition effect for all properties */
+    outline: none;
+    background-color: #000;
+    color: #fff;
+    
+  }
+
+  input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, input[type="number"]:focus {
+    border: 2px solid #B31312;
+    transform: scale(1.05); /* Increase size on focus */
+  }
+
+
+@media only screen and (max-width: 1200px) {
+    .login {
+        align-items: center;
+        margin: auto;
+        margin-left: 5%;
+        justify-content: center;
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 10px;
+        height: 85%;
+        width: 40%;
+    }
+
+   
+}
+
+
+
+@media only screen and (max-width: 950px) {
+    .login {
+        align-items: center;
+        margin: auto;
+        /* margin-left: 33%; */
+        justify-content: center;
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 10px;
+        height: 85%;
+        width: 70%;
+    }
+
+    .login-container {
+        display: flex;
+        gap: 5%;
+        /* justify-content: end;         */
+        /* background-color: #D04848; */
+        background: linear-gradient(to right, #B31312, #151D3B); /* Initial gradient colors */
+        transition: background 1s ease-in-out;
+        width: 70%;
+        height: 70%;
+        align-items: center;
+        border-radius: 20px;
+        border: 5px solid #B31312;
+        background-image: url("../assets/login-image.jpg");
+        background-size: cover; /*This will cover the entire container with the image*/
+        background-position-x: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    
+}
+
+@media only screen and (max-width: 767px) {
+    .login-container {
+        display: flex;
+        gap: 5%;
+        /* justify-content: end;         */
+        /* background-color: #D04848; */
+        background: linear-gradient(to right, #B31312, #151D3B); /* Initial gradient colors */
+        transition: background 1s ease-in-out;
+        width: 70%;
+        height: 70%;
+        align-items: center;
+        border-radius: 20px;
+        border: 5px solid #B31312;
+        background-image: url("../assets/login-image.jpg");
+        background-size: cover; /*This will cover the entire container with the image*/
+        background-position-x: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+        .login {
+            align-items: center;
+            margin: auto;
+            /* margin-left: 33%; */
+            justify-content: center;
+            background-color: rgba(255, 255, 255, 0.5);
+            border-radius: 10px;
+            height: 85%;
+            width: 100%;
+        }
+    
+
+    input[type="text"], input[type="password"], input[type="email"], input[type="number"] {
+        width: 200px;
+        padding: 10px;
+        margin: 8px;
+        border: 1px solid #fff;
+        border-radius: 5px;
+        box-sizing: border-box;
+        font-size: 16px;
+        transition: all 0.3s ease; /* Add a smooth transition effect for all properties */
+        outline: none;
+      }
+    
+      input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, input[type="number"]:focus {
+        border: 2px solid #B31312;
+        transform: scale(1.05); /* Increase size on focus */
+      }
+}
+
+
+
+
+#password {
+    position: relative;
+}
+
+.eyeIcon {
+    cursor: pointer;
+    color: #fff;
+    height: 20px;
+    width: 30px;
+    position: absolute;
+    left: 80%;
+    top: 2%;
+    font-size: larger;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.label {
+    position: relative;
+}
+
+.signin-button {
+    font-size: medium;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: #D04848;
+    color: #fff;
+    margin-left: 8px;
+}
+
+.google-login {
+    font-weight: 100;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 5px 25px;
+    border-radius: 5px;
+    border: none;
+    background: #fff;
+
+}
+
+.google {
+    padding-bottom: 10px;
+}
+
+.google-logo {
+    height: 20px;
+    width: 20px;
+}
+
+a {
+    font-size: small;
+    color: black;
+    padding-bottom: 10px;
+}
+
+.last {
+    font-size: smaller;
+    margin-left: 8px;
+}

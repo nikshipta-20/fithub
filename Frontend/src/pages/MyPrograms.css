@@ -1,0 +1,48 @@
+.my-programs-body{
+    padding-top: 5%;
+    /* text-align: center; */
+    background: #222;
+    padding-left: 40% ;
+    height: 100%;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.my-programs-heading {
+    color: white;
+    font-size: xx-large;
+    font-weight: 700;
+    
+}
+
+.my-programs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 20px;
+}
+
+
+.my-program {
+    width: 300px;
+    border-radius: 10px;
+    margin: 10%;
+    background-color: #fff;
+    padding: 8%;
+}
+
+.open-program {
+    margin-right: 0%;
+    background-color: #b31312;
+    padding: 5px 10px;
+    margin: 5%;
+    color: #fff;
+    border-radius: 5px;
+    border: solid 1px white;
+}
+
+.pname {
+    font-weight: 600;
+    font-size: x-large;
+}
+

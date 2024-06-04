@@ -1,0 +1,31 @@
+.maindiv {
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    background: #222;
+    height: 100vh;
+    padding-top: 25%;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+}
+
+.maindiv h1{
+    color: #fff;
+}
+
+.myprog-link {
+    font-size: larger;
+    color: white;
+    background-color: #b31312;
+    border: #fff;
+    padding: 15px 10px;
+    border-radius: 5px;
+}
+
+.added {
+    color: #fff;
+    font-size: x-large;
+    font-weight: 600;
+}

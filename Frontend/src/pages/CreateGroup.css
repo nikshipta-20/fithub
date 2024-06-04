@@ -1,0 +1,36 @@
+.createGrp-body{
+    align-items: center;
+    background: #222;
+    height: 100vh;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+}
+
+.createGrp-head{
+    color: #fff;
+    margin-left: 35vw;
+    padding-top: 5vh;
+    font-size: 10vh;
+}
+
+.createGrp-title{
+    font-size: 4vh;
+    color: #fff;
+    margin-left: 10vw;
+    padding-top: 5vh;
+}
+
+.createGrp-title label{
+    font-size: 4vh;
+}
+
+.createGrp-title{
+    margin-left: 30vw;
+}
+
+.createGrp-btn{
+    margin-left: 30vw;
+    margin-top: 2vh;
+}
